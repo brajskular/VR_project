@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1665085457093587144}
   - component: {fileID: 2324167651826234295}
   - component: {fileID: 6192892425421849165}
+  - component: {fileID: 4357956687266482437}
+  - component: {fileID: 6772844840020967709}
   m_Layer: 0
   m_Name: Treasure
   m_TagString: Treasure
@@ -109,8 +111,33 @@ MeshCollider:
   m_GameObject: {fileID: 1665085457091390984}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
+--- !u!114 &4357956687266482437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665085457091390984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cdc150912df77e0a9b35575ba4fe835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6772844840020967709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665085457091390984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17072083, y: 0.17285267, z: 0.17286964}
+  m_Center: {x: 0.00095021346, y: -0.0018982067, z: -0.00014097615}

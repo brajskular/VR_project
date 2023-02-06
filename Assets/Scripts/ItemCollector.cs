@@ -12,7 +12,7 @@ public class ItemCollector : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Treasure"))
         {
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
             score++;
             Debug.Log("Score: " + score);
         }
