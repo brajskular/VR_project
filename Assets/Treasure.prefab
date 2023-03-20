@@ -128,6 +128,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdc150912df77e0a9b35575ba4fe835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  hand: {fileID: 0}
+  pinchAnimationAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Pinch Animation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f5fcd89d-72bf-4c12-bc67-b63a347407c0
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  destroyDistance: 0.5
 --- !u!65 &6772844840020967709
 BoxCollider:
   m_ObjectHideFlags: 0
