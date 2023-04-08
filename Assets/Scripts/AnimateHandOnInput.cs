@@ -29,7 +29,7 @@ public class AnimateHandOnInput : MonoBehaviour
         //if(pastValue < gripValue)
         
         float gripValue = gripAnimationAction.action.ReadValue<float>();
-        if(pastValue < gripValue)
+        //if(pastValue < gripValue)
         pastValue = gripValue;
         handAnimator.SetFloat("Grip", pastValue);
         

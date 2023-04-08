@@ -10,8 +10,8 @@ public class moveBody : MonoBehaviour
 {
 public bool isTriggered;
 
-    public int score = 0;
-    public TMP_Text scoreText;
+    //public int score = 0;
+    //public TMP_Text scoreText;
     public Transform player;
     public float max_speed = 0.1f;
     public float speed = 0.0f;
