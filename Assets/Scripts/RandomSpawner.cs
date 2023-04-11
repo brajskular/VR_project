@@ -7,10 +7,15 @@ public class RandomSpawner : MonoBehaviour
     public GameObject cubePrefab;
     public int numberOfCubes = 3;
     public float spawnCollisionCheckRadius = 0.5f;
-    public LayerMask obstacleLayer = 1 << LayerMask.NameToLayer("Obstacle");
+    public LayerMask obstacleLayer;
     // import plane
     public GameObject plane;
+    
+    void Awake()
+    {
+        obstacleLayer = 1 << LayerMask.NameToLayer("Obstacle");
 
+    }
     // Start is called before the first frame update
     void Start()
     {
