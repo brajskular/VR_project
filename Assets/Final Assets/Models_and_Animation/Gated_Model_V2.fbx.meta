@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b65000b9ed153f54497a50d8a773b467
+guid: 758a6d64f8611454abbd98485259d57f
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: blinn1
-    second: {fileID: 2100000, guid: 800f13f964b055143b0aed66e04d2b5a, type: 2}
+      name: Cell_gated.002
+    second: {fileID: 2100000, guid: 2eb7eb4d9d2122a40b9434adbac7a6dc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -38,11 +38,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Funnel_Animation
-      takeName: Armature.005|ArmatureAction
-      internalID: -8584437869633751648
+      name: Gated_Animation_V2
+      takeName: Armature.013|Armature.003Action
+      internalID: -4910020236556191873
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 26
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
