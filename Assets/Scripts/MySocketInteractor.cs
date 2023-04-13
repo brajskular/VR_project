@@ -36,7 +36,6 @@ public class MySocketInteractor : XRSocketInteractor
                     hand.allowSelect = false;
                     hand.gameObject.SetActive(false);
 
-                    interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>();
                     interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().resetPosition();
                     interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().enabled = true;
 
