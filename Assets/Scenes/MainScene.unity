@@ -3209,6 +3209,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -3863,6 +3868,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -4124,6 +4134,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
@@ -4647,6 +4662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -5065,6 +5085,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -5153,6 +5178,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
@@ -5405,6 +5435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
@@ -6527,6 +6562,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -7577,6 +7617,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -7665,6 +7710,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
@@ -8348,6 +8398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
       propertyPath: m_RootOrder
@@ -8865,6 +8920,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Lipid_Floor_Smooth (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680425702663585665, guid: f6bf4cff056ff96458c3d8c461874f5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5458335039231010107, guid: f6bf4cff056ff96458c3d8c461874f5b,
         type: 3}
