@@ -15,8 +15,9 @@ public class TestHud : MonoBehaviour
 
     private IEnumerator R()
     {
-        yield return new WaitForSeconds(2);
+        Debug.Log("START");
         test.Invoke();
+        yield return new WaitForSeconds(2);
         StartCoroutine(Q());
     }
     private IEnumerator Q()
