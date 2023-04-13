@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class TaskDisplay : MonoBehaviour
 {
     public TextMeshProUGUI currentTask;
     public int numOfSubTasksCompleted { get; set; }
     public int totalNumOfSubTasks { get; set; }
+
+    public UnityEvent onAllTasksCompleted;
 
     private string outputTask;
 
@@ -21,6 +24,10 @@ public class TaskDisplay : MonoBehaviour
     {
         numOfSubTasksCompleted += numToIncrement;
         setTask(outputTask);
+        if (numOfSubTasksCompleted >= totalNumOfSubTasks)
+        {
+            onAllTasksCompleted.Invoke();
+        }
     }
     public void setTask(string task)
     {
