@@ -736,8 +736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LeftController: {fileID: 237808462}
   m_RightController: {fileID: 612934959}
-  m_LeftControllerOculusPackage: {fileID: 0}
-  m_RightControllerOculusPackage: {fileID: 0}
+  m_LeftControllerOculusPackage: {fileID: 237808462}
+  m_RightControllerOculusPackage: {fileID: 612934959}
 --- !u!4 &67518917
 Transform:
   m_ObjectHideFlags: 0
@@ -3096,14 +3096,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197aba5897649e26492683fdbf5b64c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePrefab: {fileID: 1665085457091390984, guid: f146147aa2ee6cfa08cb1e97eeb32ca0,
-    type: 3}
-  numberOfCubes: 3
-  spawnCollisionCheckRadius: 0.1
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  plane: {fileID: 0}
 --- !u!4 &560667541
 Transform:
   m_ObjectHideFlags: 0
@@ -3131,9 +3123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ab47caa4b84f170907ca443c5d067c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingPlatform: {fileID: 0}
-  objectToSpawn: {fileID: 5202469040619376977, guid: 57cb941f96776eb1bb952250ba83d027,
-    type: 3}
 --- !u!114 &560667543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3146,9 +3135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ab47caa4b84f170907ca443c5d067c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingPlatform: {fileID: 0}
-  objectToSpawn: {fileID: 5202469040619376977, guid: 57cb941f96776eb1bb952250ba83d027,
-    type: 3}
 --- !u!114 &560667544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3161,9 +3147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ab47caa4b84f170907ca443c5d067c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingPlatform: {fileID: 0}
-  objectToSpawn: {fileID: 5202469040619376977, guid: 57cb941f96776eb1bb952250ba83d027,
-    type: 3}
 --- !u!114 &560667545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3176,9 +3159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07ab47caa4b84f170907ca443c5d067c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movingPlatform: {fileID: 1447678388}
-  objectToSpawn: {fileID: 5202469040619376977, guid: 57cb941f96776eb1bb952250ba83d027,
-    type: 3}
 --- !u!1 &612934959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,26 +3410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e53bd1b469ecdfe49fc74857f7251f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonName: Trigger
-  destroyDelay: 0.5
-  destroyDistance: 2.6
-  score: 0
-  endScore: 3
-  scoreText: {fileID: 0}
-  finalScoreText: {fileID: 0}
-  pinchAnimationAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Pinch Animation
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 2f2e0204-50fa-4615-9f5e-5942261a9f30
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
 --- !u!135 &612934968
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7138,13 +7098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7adb4d481609b4339872ccdbc8776fa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
-  endScore: 3
-  scoreText: {fileID: 0}
-  finalScoreText: {fileID: 0}
-  restartButton: {fileID: 0}
-  endButton: {fileID: 0}
-  teleportTarget: {fileID: 1882784606}
 --- !u!136 &1758235838
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7213,32 +7166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf15385e2e5a6c8039d7636f6ad66c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 1882784606}
-  teleportDelay: 1.23
-  teleportCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1768069886 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364,
@@ -7515,7 +7442,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187026, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
