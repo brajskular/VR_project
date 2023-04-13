@@ -879,6 +879,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3454658849085214640, guid: aa0eb22a7934ad24c98aa1ce34137178,
         type: 3}
+      propertyPath: m_Looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454658849085214640, guid: aa0eb22a7934ad24c98aa1ce34137178,
+        type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: 204892ea88a4752f88975314ba6440a7,
@@ -916,7 +921,7 @@ PrefabInstance:
     - target: {fileID: 3454658849085214644, guid: aa0eb22a7934ad24c98aa1ce34137178,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0014
+      value: 0.0042
       objectReference: {fileID: 0}
     - target: {fileID: 3454658849085214644, guid: aa0eb22a7934ad24c98aa1ce34137178,
         type: 3}
