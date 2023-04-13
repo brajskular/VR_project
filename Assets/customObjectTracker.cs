@@ -19,6 +19,7 @@ public class customObjectTracker : MonoBehaviour
     public float timeElapsed = 0;
     public float totalTimeGazed = 0;
     private float startTime;
+    public LayerMask targetLayer;
 
     void Update()
     {
@@ -26,9 +27,9 @@ public class customObjectTracker : MonoBehaviour
         {
             Vector3 forward = deviceRotation * Vector3.forward;
             RaycastHit hitInfo;
-            if (Physics.Raycast(controller.transform.position, forward, out hitInfo))
+            if (Physics.Raycast(controller.transform.position, forward, out hitInfo, Mathf.Infinity, targetLayer))
             {
-                if (hitInfo.transform.gameObject.CompareTag("tele"))
+                if (hitInfo.transform.CompareTag("tele"))
                 {
                     if (!isGazing)
                     {
