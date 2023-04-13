@@ -1,9 +1,49 @@
 fileFormatVersion: 2
-guid: 8eba42f860b6f0545a1838d184d95a0c
+guid: 75b50e72c18934f41ae21efa9c573286
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ball
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bottom_Base
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Play_Button
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Receiver_Stem
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV_Base
+    second: {fileID: 2100000, guid: cabba250c93cfc249944235cc78f88e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_base
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

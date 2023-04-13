@@ -1,9 +1,34 @@
 fileFormatVersion: 2
-guid: cfe8a25d7440efc4f871b3176b0ff3ce
+guid: cd5b112ec28813542a6c81f0cfc44c42
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top_Thruster
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fins
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: handle
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rocket
+    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
