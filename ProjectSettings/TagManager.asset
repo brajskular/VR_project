@@ -11,6 +11,10 @@ TagManager:
   - hand
   - Grabbable
   - tele
+  - ATP
+  - Funnel
+  - Receptor
+  - Gated
   layers:
   - Default
   - TransparentFX
