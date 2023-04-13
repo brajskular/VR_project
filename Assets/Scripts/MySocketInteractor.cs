@@ -24,6 +24,7 @@ public class MySocketInteractor : XRSocketInteractor
         for (int i = 0; i < unsortedValidTargets.Count; ++i)
         {
             IXRInteractable interactable = unsortedValidTargets[i];
+            XRBaseInteractor hand = interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().selectingInteractor;
 
             // compare it's type to acceptableObject types
             foreach (string tag in acceptableTags)
@@ -31,11 +32,20 @@ public class MySocketInteractor : XRSocketInteractor
                 if (interactable.transform.root.gameObject.tag != tag)
                 {
                     unsortedValidTargets.RemoveAt(i);
-                    interactable.transform.root.gameObject.GetComponent<XRGrabInteractable>().enabled = false;
-                    
+
+                    hand.allowSelect = false;
+                    hand.gameObject.SetActive(false);
+
+                    interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>();
+                    interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().resetPosition();
+                    interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().enabled = true;
+
                     OnRejected.Invoke();
                 }
             }
+            hand.gameObject.SetActive(true);
+            hand.allowSelect = true;
+
         }  
     }
 
