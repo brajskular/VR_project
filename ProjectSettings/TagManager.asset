@@ -9,6 +9,8 @@ TagManager:
   - Obstacle
   - Enemy
   - hand
+  - Grabbable
+  - tele
   layers:
   - Default
   - TransparentFX
