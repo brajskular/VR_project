@@ -22,7 +22,7 @@ public class TestHud : MonoBehaviour
     }
     private IEnumerator Q()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         test2.Invoke();
     }
 }
