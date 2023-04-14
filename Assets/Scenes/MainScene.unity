@@ -2558,7 +2558,7 @@ PrefabInstance:
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
@@ -2587,6 +2587,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1898211286}
@@ -2612,6 +2622,16 @@ PrefabInstance:
       objectReference: {fileID: 1336064377}
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 705982759}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 705982759}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -2633,6 +2653,16 @@ PrefabInstance:
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[6].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
@@ -2662,6 +2692,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: resetTask
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: setTask
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Logger, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -2687,6 +2727,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: TaskDisplay, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: TaskDisplay, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: All Objectives Completed!
       objectReference: {fileID: 0}
@@ -2694,6 +2744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
       value: Main Objective Completed!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_StringArgument
+      value: No current task!
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
@@ -2718,6 +2773,16 @@ PrefabInstance:
     - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
       propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279425277101517308, guid: aaeb5b3139ead3a4391fff6addfa148d,
+        type: 3}
+      propertyPath: onAllTasksCompleted.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277179516354, guid: aaeb5b3139ead3a4391fff6addfa148d,
@@ -3854,17 +3919,17 @@ PrefabInstance:
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
-        type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
@@ -3875,7 +3940,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1898211282}
+      objectReference: {fileID: 705982759}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -3885,7 +3950,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 705982759}
+      objectReference: {fileID: 1898211282}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[4].m_Target
@@ -3914,17 +3979,17 @@ PrefabInstance:
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: incrementNumOfSubTasksCompleted
-      objectReference: {fileID: 0}
-    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
-        type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: resetTask
       objectReference: {fileID: 0}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: setTask
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: incrementNumOfSubTasksCompleted
       objectReference: {fileID: 0}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
@@ -3954,12 +4019,32 @@ PrefabInstance:
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
       value: Find another Module
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8408192938260968858, guid: 0b24d04372070d04ea35550332b61753,
         type: 3}
@@ -7717,13 +7802,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
@@ -7737,19 +7827,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 705982759}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1898211282}
+      objectReference: {fileID: 705982759}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 705982759}
+      objectReference: {fileID: 1898211282}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 705982759}
+      objectReference: {fileID: 1478274328}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[4].m_Target
@@ -7777,23 +7872,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: incrementNumOfSubTasksCompleted
-      objectReference: {fileID: 0}
-    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
-        type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: resetTask
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: setTask
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: incrementNumOfSubTasksCompleted
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: writeToLog
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
       value: turnOn
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TaskDisplay, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
@@ -7808,7 +7913,7 @@ PrefabInstance:
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: TaskDisplay, Assembly-CSharp
+      value: Logger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
@@ -7818,7 +7923,22 @@ PrefabInstance:
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Find another module
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
@@ -7828,7 +7948,12 @@ PrefabInstance:
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
-      value: Find another module
+      value: Gated Children Happy!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_StringArgument
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2476554027425273526, guid: 9f6099f2462780f4b8b65b906514309d,
         type: 3}
@@ -7988,6 +8113,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a74546dea9b62047b7a789c21994be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1478274328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3662199738122625751, guid: 9f6099f2462780f4b8b65b906514309d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1478274325}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf966e1422f2c548b8ea4973a0d2749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1519754777
@@ -10275,17 +10412,17 @@ PrefabInstance:
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
-        type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
@@ -10296,7 +10433,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1898211282}
+      objectReference: {fileID: 705982759}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -10306,7 +10443,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 705982759}
+      objectReference: {fileID: 1898211282}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[4].m_Target
@@ -10335,17 +10472,17 @@ PrefabInstance:
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: incrementNumOfSubTasksCompleted
-      objectReference: {fileID: 0}
-    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
-        type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: resetTask
       objectReference: {fileID: 0}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: setTask
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: incrementNumOfSubTasksCompleted
       objectReference: {fileID: 0}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
@@ -10375,12 +10512,32 @@ PrefabInstance:
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Find another Module
+      objectReference: {fileID: 0}
+    - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
+        type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
-      value: No task!
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5978941064119037625, guid: 4afe4817a3486544ebde2570a6a7e336,
         type: 3}
@@ -10992,12 +11149,17 @@ PrefabInstance:
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
@@ -11008,7 +11170,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1898211282}
+      objectReference: {fileID: 705982759}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Target
@@ -11018,7 +11180,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 705982759}
+      objectReference: {fileID: 1898211282}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[4].m_Target
@@ -11042,17 +11204,17 @@ PrefabInstance:
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: incrementNumOfSubTasksCompleted
-      objectReference: {fileID: 0}
-    - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
-        type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: resetTask
       objectReference: {fileID: 0}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: setTask
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: incrementNumOfSubTasksCompleted
       objectReference: {fileID: 0}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
@@ -11082,12 +11244,32 @@ PrefabInstance:
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
       propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
-      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
       value: Find another Module
+      objectReference: {fileID: 0}
+    - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
+        type: 3}
+      propertyPath: OnAllChildrenHappy.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8864366749653483597, guid: 6f7c069567aba2d4a96abf197980cd19,
         type: 3}
