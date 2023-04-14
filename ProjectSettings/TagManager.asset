@@ -15,6 +15,8 @@ TagManager:
   - Funnel
   - Receptor
   - Gated
+  - Obsticle
+  - Ignore
   layers:
   - Default
   - TransparentFX
@@ -25,7 +27,7 @@ TagManager:
   - Obstacle
   - Enemy
   - tele
-  - 
+  - Molecules
   - 
   - 
   - 

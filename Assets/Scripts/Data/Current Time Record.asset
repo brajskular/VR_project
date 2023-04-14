@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 820740904f4cf6d43b7882982839ee52, type: 3}
   m_Name: Current Time Record
   m_EditorClassIdentifier: 
-  currentRecord: 7
+  currentRecord: 100000000
