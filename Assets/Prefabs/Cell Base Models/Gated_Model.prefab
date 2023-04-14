@@ -350,6 +350,7 @@ GameObject:
   - component: {fileID: 3280280699762916786}
   - component: {fileID: 6331236999984025698}
   - component: {fileID: 6229487253662416759}
+  - component: {fileID: 1764231416708967925}
   m_Layer: 0
   m_Name: Socket_1
   m_TagString: Untagged
@@ -469,7 +470,31 @@ MonoBehaviour:
   - Gated
   OnRejected:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1764231416708967925}
+        m_TargetAssemblyTypeName: Logger, Assembly-CSharp
+        m_MethodName: writeToHUDRemote
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Wrong protien, Try again!
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1764231416708967925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7156364248961627525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf966e1422f2c548b8ea4973a0d2749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7639117568114784762
 GameObject:
   m_ObjectHideFlags: 0
