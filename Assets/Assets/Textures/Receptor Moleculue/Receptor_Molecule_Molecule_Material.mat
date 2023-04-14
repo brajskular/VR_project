@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Funnel_Material
+  m_Name: Receptor_Molecule_Molecule_Material
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _EMISSION
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 90fd01cf7703e0a419bd64dafd5ff9f8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3d104cce7c490c446960edeb82370973, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -40,15 +40,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 0fea7da10df8c774cbf8c3e3a28ebdbf, type: 3}
+        m_Texture: {fileID: 2800000, guid: fb4830207b3ecc94c85b823304ddb0a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0fea7da10df8c774cbf8c3e3a28ebdbf, type: 3}
+        m_Texture: {fileID: 2800000, guid: fb4830207b3ecc94c85b823304ddb0a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: d84d66faa22aef94792c58d589418a68, type: 3}
+        m_Texture: {fileID: 2800000, guid: 09fa19d4e930924468f2ecd01df77e1b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -78,6 +78,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.5747152, g: 0.8684959, b: 0.990566, a: 1}
-    - _EmissionColor: {r: 0.6100529, g: 0.6100529, b: 0.6100529, a: 1}
+    - _Color: {r: 0.9056604, g: 0.6707013, b: 0.6707013, a: 1}
+    - _EmissionColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_BuildTextureStacks: []
