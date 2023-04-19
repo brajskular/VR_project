@@ -7,12 +7,22 @@ using UnityEngine.XR.Interaction.Toolkit; // for interactors
 
 public class MySocketInteractor : XRSocketInteractor
 {
-    [SerializeField] List<string> acceptableTags;
+    [SerializeField] ExamParams examParams;
+    [SerializeField] Molecules acceptableMolecule;
     public UnityEvent OnRejected;
 
 
     static readonly Dictionary<IXRInteractable, float> s_InteractableDistanceSqrMap = new Dictionary<IXRInteractable, float>();
     static readonly Comparison<IXRInteractable> s_InteractableDistanceComparison = InteractableDistanceComparison;
+
+    public void setCurrentAcceptedMolecule(Molecules activeMolecule)
+    {
+        acceptableMolecule = activeMolecule;
+    }
+    public Molecules getCurrentAcceptedMolecule()
+    {
+        return acceptableMolecule;
+    }
 
     public override void GetValidTargets(List<IXRInteractable> targets)
     {
@@ -26,12 +36,34 @@ public class MySocketInteractor : XRSocketInteractor
             IXRInteractable interactable = unsortedValidTargets[i];
             if (interactable.transform.root.tag == "Ignore") { continue; }
 
-            XRBaseInteractor hand = interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().selectingInteractor;
-
-            // compare it's type to acceptableObject types
-            foreach (string tag in acceptableTags)
+            if (interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>() == null)
             {
-                if (interactable.transform.root.gameObject.tag != tag)
+                Debug.LogError("Object grabbed does not have a 'MyGrabbableInteractable' component");
+                return;
+            };
+
+            XRBaseInteractor hand = interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().selectingInteractor;
+             
+            if (interactable.transform.root.gameObject.tag != moleculeEnumToString(acceptableMolecule))
+            {
+                unsortedValidTargets.RemoveAt(i);
+
+                hand.allowSelect = false;
+                hand.gameObject.SetActive(false);
+
+                interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().resetPosition();
+                interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().enabled = true;
+
+                OnRejected.Invoke();
+
+                hand.gameObject.SetActive(true);
+                hand.allowSelect = true;
+            }
+
+            // If exam mode is on we don't want to accept 
+            if (examParams.isExam)
+            {
+                if (interactable.transform.root.gameObject.tag != moleculeEnumToString(examParams.currAcceptedTestMolecule))
                 {
                     unsortedValidTargets.RemoveAt(i);
 
@@ -41,17 +73,40 @@ public class MySocketInteractor : XRSocketInteractor
                     interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().resetPosition();
                     interactable.transform.root.gameObject.GetComponent<MyGrabbableInteractable>().enabled = true;
 
-                    OnRejected.Invoke();
+                    sendErrorMessageToHUD("Not the correct molecule");
 
                     hand.gameObject.SetActive(true);
                     hand.allowSelect = true;
-
                 }
             }
         }  
     }
 
     /* Helpers */
+    public string moleculeEnumToString(Molecules mol)
+    {
+        if (mol == Molecules.ATP) { return "ATP"; }
+        if (mol == Molecules.FUNNEL) { return "Funnel"; }
+        if (mol == Molecules.GATED) { return "Gated"; }
+        if (mol == Molecules.LIPID) { return "Lipid"; }
+        if (mol == Molecules.RECEPTOR) { return "Receptor"; }
+
+        Debug.LogError("No current molecule is set as exam molecule!");
+        return "";
+    }
+    private void sendErrorMessageToHUD(string message)
+    {
+        GameObject HUDRef = GameObject.Find("Screen Space HUD");
+        if (HUDRef == null) { Debug.LogError("Unable to find HUD"); return; }
+
+        MessageDisplay MessageRef = HUDRef.GetComponentInChildren<MessageDisplay>();
+        if (MessageRef == null) { Debug.LogError("Unable to find Messager in HUD"); return; }
+
+        MessageRef.setMessage(message);
+
+        Debug.Log(HUDRef);
+    }
+
     public static void Sort<T>(IList<T> hits, IComparer<T> comparer) where T : struct
     {
         bool fullPass;

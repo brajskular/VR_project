@@ -345,8 +345,8 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
-  acceptableTags:
-  - ATP
+  examParams: {fileID: 11400000, guid: ada290d9b8a5cea4cb591296dad58c16, type: 2}
+  acceptableMolecule: 1
   OnRejected:
     m_PersistentCalls:
       m_Calls:
