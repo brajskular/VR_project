@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 792640489419134769}
   m_Layer: 0
   m_Name: ATP_Molecule
-  m_TagString: Ignore
+  m_TagString: ATP
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

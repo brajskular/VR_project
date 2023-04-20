@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c00d19da4a9018940b82eb6ac1d46bb6, type: 3}
   m_Name: ExamParams
   m_EditorClassIdentifier: 
-  isExam: 0
-  currAcceptedMoleculeTag: None
+  isExam: 1
+  currAcceptedMoleculeTag: abc

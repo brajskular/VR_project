@@ -670,6 +670,9 @@ MonoBehaviour:
         m_CallState: 2
   numOfChildren: 0
   numOfHappyChildren: 0
+  isLipid: 0
+  numOfLipidsRequired: 0
+  currentNumOfLipids: 0
 --- !u!114 &3216768825340211997
 MonoBehaviour:
   m_ObjectHideFlags: 0

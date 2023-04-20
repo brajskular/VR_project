@@ -15,4 +15,15 @@ public class TestParamsInteractor : MonoBehaviour
     {
         examParams.isExam = t;
     }
+    
+    public void resetExam()
+    {
+        examParams.isExam = false;
+        examParams.currAcceptedMoleculeTag = "None";
+    }
+
+    private void OnApplicationQuit()
+    {
+        resetExam();
+    }
 }

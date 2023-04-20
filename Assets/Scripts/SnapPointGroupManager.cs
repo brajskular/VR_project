@@ -25,7 +25,7 @@ public class SnapPointGroupManager : MonoBehaviour
     public void childHappy()
     {
         // Lipid stuff
-        if(isLipid)
+        if (isLipid)
         {
             onChildHappy.Invoke();
 
@@ -36,14 +36,16 @@ public class SnapPointGroupManager : MonoBehaviour
             }
         }
 
-        
-        // All others
-        onChildHappy.Invoke();
-
-        numOfHappyChildren++;
-        if(numOfHappyChildren == numOfChildren)
+        else
         {
-            OnAllChildrenHappy.Invoke();
+            // All others
+            onChildHappy.Invoke();
+
+            numOfHappyChildren++;
+            if (numOfHappyChildren == numOfChildren)
+            {
+                OnAllChildrenHappy.Invoke();
+            }
         }
     }
 

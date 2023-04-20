@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit; // for interactors
 public class InteractableDetector : MonoBehaviour
 {
     public string acceptedMoleculeTag;
+    [SerializeField] Collider col;
     [SerializeField] ExamParams examParams;
     [SerializeField] UnityEvent onRejected;
     [SerializeField] UnityEvent onAccepted;
@@ -14,6 +15,7 @@ public class InteractableDetector : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        //Debug.Log(collision.collider);
         GameObject collidedObject = collision.gameObject;
 
         // Is not a molecule at all

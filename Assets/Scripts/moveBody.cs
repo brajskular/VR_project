@@ -8,6 +8,7 @@ using TMPro;
 
 public class moveBody : MonoBehaviour
 {
+    AudioSource audioData;
     public bool isTriggered;
 
     //public int score = 0;
@@ -21,6 +22,7 @@ public class moveBody : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioData = GetComponent<AudioSource>();
         isTriggered = false;
         accelerate = false;
         decelerate = false;
@@ -30,6 +32,7 @@ public class moveBody : MonoBehaviour
     }
     public void moveB(ActivateEventArgs args)
     {
+        audioData.Play();
         isTriggered = true;
         accelerate = true;
         decelerate = false;
@@ -37,6 +40,7 @@ public class moveBody : MonoBehaviour
 
     public void stopB(DeactivateEventArgs args)
     {
+        audioData.Stop();
         isTriggered = false;
         decelerate = true;
         accelerate = false;
