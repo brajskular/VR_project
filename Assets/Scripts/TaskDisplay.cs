@@ -7,18 +7,30 @@ using UnityEngine.Events;
 public class TaskDisplay : MonoBehaviour
 {
     public TextMeshProUGUI currentTask;
-    public int numOfSubTasksCompleted { get; set; }
-    public int totalNumOfSubTasks { get; set; }
+    [SerializeField] public int numOfSubTasksCompleted = 0;
+    [SerializeField] public int totalNumOfSubTasks = 0;
+
+    public int getnumOfSubTasksCompleted() 
+    { return numOfSubTasksCompleted; }
+    public void setnumOfSubTasksCompleted(int num) 
+    { numOfSubTasksCompleted = num; }
+
+    public int gettotalNumOfSubTasks() 
+    { return totalNumOfSubTasks; }
+    public void settotalNumOfSubTasks(int num) 
+    { totalNumOfSubTasks = num; }
 
     public UnityEvent onAllTasksCompleted;
 
     private string outputTask;
 
+    /*
     private void Start()
     {
         numOfSubTasksCompleted = 0;
         totalNumOfSubTasks = 0;
     }
+    */
 
     public void incrementNumOfSubTasksCompleted(int numToIncrement)
     {
@@ -34,7 +46,7 @@ public class TaskDisplay : MonoBehaviour
         outputTask = task;
 
         string returnTask = outputTask;
-
+        
         if (totalNumOfSubTasks >= 1)
         {
             returnTask += ": " + numOfSubTasksCompleted + "/" + totalNumOfSubTasks;

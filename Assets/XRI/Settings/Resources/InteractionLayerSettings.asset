@@ -19,8 +19,8 @@ MonoBehaviour:
   - Gated
   - Funnel
   - Receptor
-  - 
-  - 
+  - NotInteractable
+  - Lipid
   - 
   - 
   - 

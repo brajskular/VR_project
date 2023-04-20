@@ -8,21 +8,11 @@ public class TestParamsInteractor : MonoBehaviour
 
     public void setTestMolecule(string mol)
     {
-        examParams.currAcceptedTestMolecule = stringToMolecule(mol);
+        examParams.currAcceptedMoleculeTag = mol;
         examParams.isExam = true;
     }
-
-    private Molecules stringToMolecule(string mol)
+    public void setIsTest(bool t)
     {
-        if (mol == "ATP") { return Molecules.ATP; }
-        /*
-        if (mol == Molecules.FUNNEL) { return "Funnel"; }
-        if (mol == Molecules.GATED) { return "Gated"; }
-        if (mol == Molecules.LIPID) { return "Lipid"; }
-        if (mol == Molecules.RECEPTOR) { return "Receptor"; }
-
-        Debug.LogError("No current molecule is set as exam molecule!");
-        */
-        return Molecules.NONE;
+        examParams.isExam = t;
     }
 }

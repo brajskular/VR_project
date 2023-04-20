@@ -5,10 +5,16 @@ using UnityEngine.Events;
 
 public class SnapPointGroupManager : MonoBehaviour
 {
+    public UnityEvent onChildHappy;
+    public UnityEvent onChildUnhappy;
     public UnityEvent OnAllChildrenHappy;
 
-    private int numOfChildren;
-    private int numOfHappyChildren = 0;
+    [SerializeField] private int numOfChildren;
+    [SerializeField] private int numOfHappyChildren = 0;
+
+    public bool isLipid = false;
+    public int numOfLipidsRequired;
+    public int currentNumOfLipids = 0;
 
     void Start()
     {
@@ -18,6 +24,22 @@ public class SnapPointGroupManager : MonoBehaviour
     // The correct object was added to this child!
     public void childHappy()
     {
+        // Lipid stuff
+        if(isLipid)
+        {
+            onChildHappy.Invoke();
+
+            currentNumOfLipids++;
+            if (currentNumOfLipids == numOfLipidsRequired)
+            {
+                OnAllChildrenHappy.Invoke();
+            }
+        }
+
+        
+        // All others
+        onChildHappy.Invoke();
+
         numOfHappyChildren++;
         if(numOfHappyChildren == numOfChildren)
         {
@@ -28,6 +50,15 @@ public class SnapPointGroupManager : MonoBehaviour
     // The correct object was removed from this child
     public void childUnahppy()
     {
+        // lipids
+        if (isLipid)
+        {
+            onChildUnhappy.Invoke();
+            currentNumOfLipids--;
+        }
+
+        // all others
+        onChildUnhappy.Invoke();
         numOfHappyChildren--;
     }
 }

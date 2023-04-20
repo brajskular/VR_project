@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ExamParams
   m_EditorClassIdentifier: 
   isExam: 0
-  currAcceptedTesMolecule: 2
+  currAcceptedMoleculeTag: None

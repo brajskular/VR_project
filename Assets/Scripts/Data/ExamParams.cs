@@ -12,5 +12,5 @@ public class ExamParams : ScriptableObject
     public bool isExam;
 
     [SerializeField]
-    public Molecules currAcceptedTestMolecule;
+    public string currAcceptedMoleculeTag;
 }

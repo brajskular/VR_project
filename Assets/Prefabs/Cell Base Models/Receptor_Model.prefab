@@ -221,6 +221,7 @@ Transform:
   m_Children:
   - {fileID: 4005113423111070066}
   - {fileID: 6383394756030055594}
+  - {fileID: 123077265409689492}
   - {fileID: 2027639577606032286}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -255,8 +256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027639577606032286}
   - component: {fileID: 8930487785062480073}
-  - component: {fileID: 2541688038766541763}
-  - component: {fileID: 8826724860659038830}
+  - component: {fileID: 6987399481090346355}
   m_Layer: 0
   m_Name: Socket_1
   m_TagString: Untagged
@@ -278,7 +278,7 @@ Transform:
   m_Children:
   - {fileID: 5664044918407563051}
   m_Father: {fileID: 3607943254380121054}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &8930487785062480073
 SphereCollider:
@@ -293,7 +293,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 4
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2541688038766541763
+--- !u!114 &6987399481090346355
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5235468119240741405}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e01c27d2151f8e4486dde8d781df000, type: 3}
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -327,7 +327,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6875258754083871948}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
+        m_MethodName: SetTrigger
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -339,19 +339,7 @@ MonoBehaviour:
         m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SnapPointGroupManager, Assembly-CSharp
-        m_MethodName: childUnahppy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_OnHoverEntered:
@@ -366,18 +354,87 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_ShowInteractableHoverMeshes: 0
+  m_ShowInteractableHoverMeshes: 1
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
-  acceptableTags:
-  - Receptor
-  OnRejected:
+--- !u!1 &6342418326610589601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 123077265409689492}
+  - component: {fileID: 1337467933011000880}
+  - component: {fileID: 2168130479951404062}
+  - component: {fileID: 4849411688175623515}
+  - component: {fileID: 1770446650468503417}
+  - component: {fileID: 688529478177820294}
+  m_Layer: 0
+  m_Name: Collision Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &123077265409689492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342418326610589601}
+  m_LocalRotation: {x: -0, y: 0.0000000018626449, z: -0, w: 1}
+  m_LocalPosition: {x: -31.05, y: 7.201991, z: -0.04}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3607943254380121054}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1337467933011000880
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342418326610589601}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &2168130479951404062
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342418326610589601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.6
+  m_Center: {x: 0.00024414077, y: 0, z: 0.00036621117}
+--- !u!114 &4849411688175623515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342418326610589601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d8e314cf0eac0448bcc7bcc5eb301f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acceptedMolecule: 5
+  examParams: {fileID: 11400000, guid: ada290d9b8a5cea4cb591296dad58c16, type: 2}
+  onRejected:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8826724860659038830}
+      - m_Target: {fileID: 688529478177820294}
         m_TargetAssemblyTypeName: Logger, Assembly-CSharp
         m_MethodName: writeToHUDRemote
         m_Mode: 5
@@ -386,16 +443,32 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Wrong protein, try again!
+          m_StringArgument: Wrong protien, Try again!
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8826724860659038830
+--- !u!54 &1770446650468503417
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342418326610589601}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &688529478177820294
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5235468119240741405}
+  m_GameObject: {fileID: 6342418326610589601}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbf966e1422f2c548b8ea4973a0d2749, type: 3}
