@@ -8,15 +8,29 @@ public class MyVideoPlayer : MonoBehaviour
 {
     [SerializeField] UnityEvent onVideoEnded;
     [SerializeField] VideoPlayer videoPlayer;
+    [SerializeField] bool playOnce;
+    private bool played;
     // Start is called before the first frame update
     void Start()
     {
+        played = false;
         videoPlayer.loopPointReached += EndReached;
     }
 
     // Update is called once per frame
     void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
-        onVideoEnded.Invoke();
+        if(playOnce)
+        {
+            if(!played)
+            {
+                onVideoEnded.Invoke();
+            }
+        }
+        else
+        {
+            onVideoEnded.Invoke();
+        }
+        played = true;
     }
 }
