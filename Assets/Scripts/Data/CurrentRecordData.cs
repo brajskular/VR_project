@@ -6,4 +6,6 @@ using UnityEngine;
 public class CurrentRecordData : ScriptableObject
 {
     public float currentRecord;
+    public float timeInArea;
+    public float timeGazed;
 }

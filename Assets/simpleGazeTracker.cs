@@ -13,6 +13,7 @@ public class simpleGazeTracker : MonoBehaviour
     private bool isGazing = false;
     
     public TMP_Text timeText;
+    public CurrentRecordData data;
     public float timeElapsed = 0;
     public float totalTimeGazed = 0;
     private LayerMask teleLayerMask;
@@ -55,7 +56,8 @@ public class simpleGazeTracker : MonoBehaviour
                     totalTimeGazed += timeElapsed;
                     timeElapsed = 0;
                 }
-            timeText.text = "Time: " + totalTimeGazed.ToString("F2");
+        timeText.text = "Time: " + totalTimeGazed.ToString("F2");
+        data.timeGazed = totalTimeGazed;
     }
 }
 
