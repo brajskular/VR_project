@@ -231,6 +231,7 @@ GameObject:
   - component: {fileID: 7165608788474678673}
   - component: {fileID: 6128577444906369716}
   - component: {fileID: 100051468561565897}
+  - component: {fileID: 13165021576620517}
   m_Layer: 0
   m_Name: Socket_1
   m_TagString: Untagged
@@ -323,6 +324,19 @@ MonoBehaviour:
           m_StringArgument: Play
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 100051468561565897}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_socketActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -346,6 +360,18 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+--- !u!114 &13165021576620517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591010231099842378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f064d8e565b724f89a240e90314f35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3741692453352474747
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12d8e314cf0eac0448bcc7bcc5eb301f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  acceptedMolecule: 1
+  acceptedMoleculeTag: 
   examParams: {fileID: 11400000, guid: ada290d9b8a5cea4cb591296dad58c16, type: 2}
   onRejected:
     m_PersistentCalls:
@@ -656,6 +682,10 @@ MonoBehaviour:
           m_StringArgument: Wrong protien, Try again!
           m_BoolArgument: 0
         m_CallState: 2
+  onAccepted:
+    m_PersistentCalls:
+      m_Calls: []
+  isLipidDetector: 0
 --- !u!54 &4556506173923894156
 Rigidbody:
   m_ObjectHideFlags: 0
