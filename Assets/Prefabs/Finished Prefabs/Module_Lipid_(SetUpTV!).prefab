@@ -129,7 +129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acceptedMoleculeTag: Lipid
-  col: {fileID: 0}
   examParams: {fileID: 11400000, guid: ada290d9b8a5cea4cb591296dad58c16, type: 2}
   onRejected:
     m_PersistentCalls:
@@ -949,10 +948,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8899303855279465107}
-  - component: {fileID: 2572429858266156274}
   m_Layer: 0
   m_Name: Module_Lipid_(SetUpTV!)
-  m_TagString: tele
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -983,19 +981,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 205.84, z: 0}
---- !u!65 &2572429858266156274
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8127727495232501801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8145570895316973636
 GameObject:
   m_ObjectHideFlags: 0
