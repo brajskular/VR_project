@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 180650892042780637}
+  - component: {fileID: 2060001317375385280}
   m_Layer: 0
   m_Name: Module_ATP
   m_TagString: Untagged
@@ -42,6 +43,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 181.937, z: 0}
+--- !u!65 &2060001317375385280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705408915707356519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08, y: 0.09, z: 0.04}
+  m_Center: {x: 0, y: 0.05, z: 0}
 --- !u!1 &923600650664787301
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +646,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a74546dea9b62047b7a789c21994be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onChildHappy:
+    m_PersistentCalls:
+      m_Calls: []
+  onChildUnhappy:
+    m_PersistentCalls:
+      m_Calls: []
   OnAllChildrenHappy:
     m_PersistentCalls:
       m_Calls:
@@ -671,6 +691,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  numOfChildren: 0
+  numOfHappyChildren: 0
+  isLipid: 0
+  numOfLipidsRequired: 0
+  currentNumOfLipids: 0
 --- !u!114 &2800512543948811033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,7 +1048,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 7240176478a5c8746b4b9ff8e44eb3ff,
+      objectReference: {fileID: 32900000, guid: 80e3bdaca6a5f564a86c2157a8cbae79,
         type: 3}
     - target: {fileID: 3454658849085214640, guid: aa0eb22a7934ad24c98aa1ce34137178,
         type: 3}
