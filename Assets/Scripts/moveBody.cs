@@ -14,7 +14,10 @@ public class moveBody : MonoBehaviour
     //public int score = 0;
     //public TMP_Text scoreText;
     public Transform player;
-    public float max_speed = 0.02f;
+    public Rigidbody rb;
+    public Rigidbody rb_2;
+    Vector3 direction;
+    public float max_speed = 0.5f;
     public float speed = 0.0f;
     private bool accelerate = false;
     private bool decelerate = false;
@@ -29,6 +32,7 @@ public class moveBody : MonoBehaviour
         XRGrabInteractable grabInteractable = GetComponent<XRGrabInteractable>();
         grabInteractable.activated.AddListener(moveB);
         grabInteractable.deactivated.AddListener(stopB);
+        direction = transform.forward;
     }
     public void moveB(ActivateEventArgs args)
     {
@@ -51,7 +55,7 @@ public class moveBody : MonoBehaviour
     {
         if (accelerate)
         {
-            speed += 0.005f;
+            speed += 0.05f;
             if (speed >= max_speed)
             {
                 accelerate = false;
@@ -72,9 +76,16 @@ public class moveBody : MonoBehaviour
         //score = int.Parse(scoreText.text);
         //score++;
         //scoreText.text = score.ToString();
-        Vector3 direction = transform.forward;
+        direction = transform.forward;
         //transform.position += direction * speed;
-        player.position += direction * speed;
+        // player.position += direction * speed;
         // }
+    }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + (direction * speed * Time.deltaTime));
+        // rb.velocity = direction * speed;
+        // rb_2.MovePosition(rb_2.position + (transform.forward * 0.04f * Time.deltaTime));
     }
 }

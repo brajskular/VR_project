@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4007842748396495858}
   - component: {fileID: 8253598028836979953}
   - component: {fileID: 6992761822537769831}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_fin2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1508869010000031529}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fins1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 3601071259420475503}
   - component: {fileID: 5825302365156176649}
   - component: {fileID: 5685109748114751532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_fin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 2198221409411942671}
   - component: {fileID: 4888602285427846657}
   - component: {fileID: 255107269018089336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: front_fin1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 9204377746596269033}
   - component: {fileID: 3111034946116722728}
   - component: {fileID: 7954061566038986301}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: top_thruster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   - component: {fileID: 3059552547317601870}
   - component: {fileID: 3059552547317601875}
   - component: {fileID: 2943358511542852003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SCUBA_scooter_working
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -586,6 +586,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isTriggered: 0
   player: {fileID: 0}
+  rb: {fileID: 0}
+  rb_2: {fileID: 0}
   max_speed: 0.04
   speed: 0
 --- !u!82 &2943358511542852003
@@ -693,7 +695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3059552547115144159}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: attach_point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +728,7 @@ GameObject:
   - component: {fileID: 2057690176508724861}
   - component: {fileID: 2238041713996961343}
   - component: {fileID: 668802239203654179}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: top_arm_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -809,7 +811,7 @@ GameObject:
   - component: {fileID: 977428135328007807}
   - component: {fileID: 5498962817286981929}
   - component: {fileID: 9162560922167620522}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: handle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -892,7 +894,7 @@ GameObject:
   - component: {fileID: 8130044343979794709}
   - component: {fileID: 1496499203103805046}
   - component: {fileID: 1482002026110350403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -973,7 +975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6144612518084221991}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: top_arms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,7 +1012,7 @@ GameObject:
   - component: {fileID: 2605473496589981896}
   - component: {fileID: 2477484799786588994}
   - component: {fileID: 2573732680440936802}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: top_arm_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1093,7 +1095,7 @@ GameObject:
   - component: {fileID: 6275596443080158985}
   - component: {fileID: 8289150271529517050}
   - component: {fileID: 8462869667243497175}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: top_arm_front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1176,7 +1178,7 @@ GameObject:
   - component: {fileID: 8490758246720185277}
   - component: {fileID: 5063212268132689428}
   - component: {fileID: 8181958264470649403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: top_arm_back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
