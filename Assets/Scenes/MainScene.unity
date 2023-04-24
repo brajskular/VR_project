@@ -279,18 +279,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1898211282}
-        m_TargetAssemblyTypeName: TaskDisplay, Assembly-CSharp
-        m_MethodName: resetTask
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   videoPlayer: {fileID: 73814085}
 --- !u!4 &45803218 stripped
 Transform:
@@ -1013,7 +1001,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &341450838
 MonoBehaviour:
@@ -2063,7 +2051,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1984061246}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2881489822455761666, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
@@ -2448,7 +2436,7 @@ PrefabInstance:
     - target: {fileID: 4279425277179516354, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 4279425277179516354, guid: aaeb5b3139ead3a4391fff6addfa148d,
         type: 3}
@@ -6130,17 +6118,17 @@ PrefabInstance:
     - target: {fileID: 4132393683844855254, guid: 10256b87686b91f4fb854591139da988,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -798.59204
+      value: -760.76
       objectReference: {fileID: 0}
     - target: {fileID: 4132393683844855254, guid: 10256b87686b91f4fb854591139da988,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -51.026
+      value: -51.912
       objectReference: {fileID: 0}
     - target: {fileID: 4132393683844855254, guid: 10256b87686b91f4fb854591139da988,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1410.6763
+      value: -1339.823
       objectReference: {fileID: 0}
     - target: {fileID: 4132393683844855254, guid: 10256b87686b91f4fb854591139da988,
         type: 3}
@@ -12376,7 +12364,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -13761,7 +13749,7 @@ PrefabInstance:
     - target: {fileID: 1730621072282919699, guid: 98929405b504a8e458e8dd79ffa11f79,
         type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 1730621072282919699, guid: 98929405b504a8e458e8dd79ffa11f79,
         type: 3}
@@ -17090,32 +17078,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 7c86deef67d5d31498d719cf37c6dcf2,
+      objectReference: {fileID: 32900000, guid: 204892ea88a4752f88975314ba6440a7,
         type: 3}
     - target: {fileID: 4454551537413166498, guid: 4d60ecaf0164106439ba37c11156b6c5,
         type: 3}
       propertyPath: m_ControlledAudioTrackCount
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4454551537413166498, guid: 4d60ecaf0164106439ba37c11156b6c5,
         type: 3}
       propertyPath: m_DirectAudioMutes.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4454551537413166498, guid: 4d60ecaf0164106439ba37c11156b6c5,
         type: 3}
       propertyPath: m_DirectAudioVolumes.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4454551537413166498, guid: 4d60ecaf0164106439ba37c11156b6c5,
         type: 3}
       propertyPath: m_EnabledAudioTracks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4454551537413166498, guid: 4d60ecaf0164106439ba37c11156b6c5,
         type: 3}
       propertyPath: m_TargetAudioSources.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4454551537413166498, guid: 4d60ecaf0164106439ba37c11156b6c5,
         type: 3}
