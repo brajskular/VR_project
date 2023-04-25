@@ -1341,6 +1341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   acceptedMoleculeTag: Lipid
+  col: {fileID: 0}
   examParams: {fileID: 11400000, guid: ada290d9b8a5cea4cb591296dad58c16, type: 2}
   onRejected:
     m_PersistentCalls:
